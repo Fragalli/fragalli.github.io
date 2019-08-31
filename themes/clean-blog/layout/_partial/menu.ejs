@@ -19,7 +19,7 @@
                     <li>
                         
                             <% if (theme.menu[i].icon) { %>
-                                <a target="_blank" href="<%- theme.menu[i].url ? url_for(theme.menu[i].url) : url_for(theme.menu[i]) %>">
+                                <a rel="noreferrer" target="_blank" href="<%- theme.menu[i].url ? url_for(theme.menu[i].url) : url_for(theme.menu[i]) %>">
                                 <i  class="fa fa-<%= theme.menu[i].icon %> fa-stack-2x"></i>
                             <% } else { %>
                                 <a href="<%- theme.menu[i].url ? url_for(theme.menu[i].url) : url_for(theme.menu[i]) %>">

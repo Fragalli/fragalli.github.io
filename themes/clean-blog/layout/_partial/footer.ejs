@@ -8,7 +8,7 @@
                 <ul class="list-inline text-center">
                     <% if (theme.twitter_url) { %>
                         <li>
-                            <a href="<%- theme.twitter_url%>" target="_blank">
+                            <a aria-label="Link para meu twitter" href="<%- theme.twitter_url%>" target="_blank" rel="noopener">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -30,7 +30,7 @@
 
                     <% if (theme.github_url) { %>
                         <li>
-                            <a href="<%- theme.github_url%>" target="_blank">
+                            <a aria-label="Link para meu github" href="<%- theme.github_url%>" target="_blank" rel="noopener">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -41,7 +41,7 @@
 
                     <% if (theme.linkedin_url) { %>
                         <li>
-                            <a href="<%- theme.linkedin_url%>" target="_blank">
+                            <a aria-label="Link para meu linkedin" href="<%- theme.linkedin_url%>" target="_blank" rel="noopener">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -73,8 +73,8 @@
                     <% } %>
                 </ul>
                 <p class="copyright text-muted">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br></p>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+                <p class="copyright text-muted">Original Theme <a rel="noopener" target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a rel="noopener" href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a rel="noopener" target="_blank" href="https://hexo.io/">Hexo</a> by <a rel="noopener" href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
             </div>
         </div>
     </div>
