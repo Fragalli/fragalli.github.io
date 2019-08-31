@@ -3,6 +3,7 @@
     var title = '';
     var isTagIndex = page.type === 'tags' || page.type === 'tag';
     var isCategoryIndex = page.type === 'categories' || page.type === 'category';
+    var isAboutMe = page.type === 'about-me'
     if (isTagIndex) {
         items = site.tags;
         title = __('tags');
