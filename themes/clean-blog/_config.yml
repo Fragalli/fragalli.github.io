@@ -5,7 +5,7 @@ menu:
   Tags: /tags
   About Me: /about-me
   Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
+    url: https://github.com/Fragalli/blog
     icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
@@ -34,7 +34,7 @@ google_analytics:
 addthis:
 
 # set your own favicon
-favicon:
+favicon: ../../favicon2.png
 
 # Social Accounts
 twitter_url: https://twitter.com/vfragalli
