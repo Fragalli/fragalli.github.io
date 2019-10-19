@@ -26,19 +26,10 @@
                     <div class="post-heading">
                         <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
                         <% if (item.subtitle && item.subtitle.length) { %>
-                        <h2 class="post-subheading">
+                        <h5 class="post-subheading">
                             <%- item.subtitle %>
-                        </h2>
+                        </h5>
                         <% } %>
-                        <span class="meta">
-                            <!-- Date and Author -->
-                            <% if(item.author) { %>
-                                Posted by <%- item.author %> on
-                            <% } %>
-                            <% if(item.date) { %>
-                                <%= item.date.format(config.date_format) %>
-                            <% } %>
-                        </span>
                     </div>
                 </div>
             </div>

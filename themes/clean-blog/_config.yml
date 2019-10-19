@@ -12,8 +12,7 @@ menu:
 menu_title: 
 
 # URL of the Home page image
-index_cover: https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?fit=crop&crop=top&w=4000&h=2400&fm=webp
-
+index_cover: /img/header-jpg.jpg
 # Default post title
 default_post_title: Untitled
 
@@ -34,7 +33,7 @@ google_analytics:
 addthis:
 
 # set your own favicon
-favicon: ../../favicon2.png
+favicon: /img/icons8-monitor-64.png
 
 # Social Accounts
 twitter_url: https://twitter.com/vfragalli

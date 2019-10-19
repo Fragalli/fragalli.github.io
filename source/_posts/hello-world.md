@@ -1,43 +1,14 @@
 ---
 title: Hello World
 tags: 
-- Desenvolvimento 
 
-subtitle: Hello World with Hexo :)
+subtitle: Hello World com Hexo :)
 
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Olá mundo :D
 
-## Quick Start
+Espero conseguir postar com uma certa frequência e compartilhar o pouco que sei !
 
-### Create a new post
+Estou criando esse blog usando [Hexo](https://hexo.io/), uma engine para blogs que gera conteúdo estático.
 
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+Espero que gostem !
